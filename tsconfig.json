@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "ES2016"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -13,6 +18,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+
     "plugins": [
       {
         "name": "next"
