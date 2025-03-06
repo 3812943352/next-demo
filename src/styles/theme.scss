@@ -1,0 +1,26 @@
+/**
+ * @Author: wangbo 3812943352@qq.com
+ * @Date: 2024-12-26 17:05:44
+ * @LastEditors: wangbo 3812943352@qq.com
+ * @LastEditTime: 2024-12-27 10:47:18
+ * @FilePath: src/styles/theme.scss
+ * @Description: 这是默认设置,可以在设置》工具》File Description中进行配置
+ */
+@use "variables";
+body.light-theme {
+  --body-bg-color: #{variables.$light-theme-bg};
+  --text-color: #{variables.$light-theme-text-color};
+  --primary-color: #{variables.$light-theme-primary};
+  --accent-color: #{variables.$light-theme-accent};
+  --button-bg-color: #{variables.$light-theme-button-bg};
+  --button-text-color: #{variables.$light-theme-button-color};
+}
+
+body.dark-theme {
+  --body-bg-color: #{variables.$dark-theme-bg};
+  --text-color: #{variables.$dark-theme-text-color};
+  --primary-color: #{variables.$dark-theme-primary};
+  --accent-color: #{variables.$dark-theme-accent};
+  --button-bg-color: #{variables.$dark-theme-button-bg};
+  --button-text-color: #{variables.$dark-theme-button-color};
+}

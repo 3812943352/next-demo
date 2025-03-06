@@ -1,0 +1,35 @@
+/**
+ * @Author: wangbo 3812943352@qq.com
+ * @Date: 2024-12-26 17:05:11
+ * @LastEditors: wangbo 3812943352@qq.com
+ * @LastEditTime: 2024-12-27 10:21:47
+ * @FilePath: src/styles/variables.scss
+ * @Description: 这是默认设置,可以在设置》工具》File Description中进行配置
+ */
+// Light Theme Variables
+$light-theme-bg: #ffffff;
+$light-theme-text-color: #000000;
+$light-theme-primary: #3f51b5;
+$light-theme-accent: #ffeb3b;
+$light-theme-button-bg: #eee;
+$light-theme-button-color: #333;
+
+// Dark Theme Variables
+$dark-theme-bg: #121212;
+$dark-theme-text-color: #ffffff;
+$dark-theme-primary: #1976d2;
+$dark-theme-accent: #ffc107;
+$dark-theme-button-bg: #333;
+$dark-theme-button-color: #fff;
+
+// 默认使用浅色主题
+$body-bg-color: $light-theme-bg !default;
+$text-color: $light-theme-text-color !default;
+$primary-color: $light-theme-primary !default;
+$accent-color: $light-theme-accent !default;
+$button-bg-color: $light-theme-button-bg !default;
+$button-text-color: $light-theme-button-color !default;
+
+$green: #00ff00;
+$purple: #800080;
+$blue: #0000ff;

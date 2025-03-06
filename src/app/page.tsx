@@ -2,13 +2,14 @@
  * @Author: wangbo 3812943352@qq.com
  * @Date: 2024-12-25 11:33:27
  * @LastEditors: wangbo 3812943352@qq.com
- * @LastEditTime: 2024-12-25 17:26:30
+ * @LastEditTime: 2024-12-26 09:54:31
  * @FilePath: src/app/page.tsx
  * @Description: 这是默认设置,可以在设置》工具》File Description中进行配置
  */
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_API_URL);
   return (
     <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
       <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">

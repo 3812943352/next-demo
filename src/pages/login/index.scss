@@ -1,0 +1,312 @@
+/**
+ * @Author: wangbo 3812943352@qq.com
+ * @Date: 2025-01-02 08:48:35
+ * @LastEditors: wangbo 3812943352@qq.com
+ * @LastEditTime: 2025-01-02 16:54:23
+ * @FilePath: src/pages/login/index.scss
+ * @Description: 这是默认设置,可以在设置》工具》File Description中进行配置
+ */
+canvas {
+  height: 100vh;
+  width: 100vw;
+  z-index: -3;
+  position: absolute;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  flex: auto;
+}
+
+.app {
+  position: relative;
+}
+
+.login {
+  width: 30vw;
+  height: 45vh;
+  margin: auto;
+  position: absolute;
+  left: 35vw;
+  top: 30vh;
+  background-color: rgba(255, 255, 240, 0.8);
+  border-radius: 15px 15px;
+}
+
+.pos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.cyberpunk {
+color: black;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+h1.cyberpunk:before {
+
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 25%;
+  width: 50%;
+  height: 25%;
+
+  background-color: #000;
+  clip-path: polygon(0px 0px, 5.3125rem 0px, 5.625rem 0.3125rem, 100% 0.3125rem, 100% 0.375rem, 5.3125rem 0.375rem, 5rem 0.625rem, 0px 0.625rem);
+}
+
+
+.text1 {
+  display: flex;
+  position: relative;
+  --zcolor: #000;
+  --fcolor: #000000;
+  margin-top: 5%;
+
+}
+
+.text1 > input {
+  color: black;
+  height: 4vh;
+  width: 90%;
+  outline: 0;
+  border: 0.1rem solid var(--fcolor);
+  padding: 0.5rem;
+  background: rgba(255, 255, 240, 1);
+
+}
+
+.text1 > label {
+  position: absolute;
+  top: 50%;
+  left: 0.3rem;
+  transform: translateY(-60%);
+  color: #bbb;
+  transition: 0.2s;
+  background: rgba(255, 255, 240, 1);
+}
+
+.text1 > input:focus, .text1 > input:not(:placeholder-shown) {
+  border: 0.1rem solid var(--zcolor);
+}
+
+.text1 > input:focus + label, .text1 > input:not(:placeholder-shown) + label {
+  color: var(--zcolor);
+  top: 0;
+  font-size: 0.8rem;
+}
+
+.btn0 {
+  display: flex;
+  margin-top: 5%;
+  /*width: 60%;*/
+  justify-content: center;
+
+}
+
+#loginForm {
+  width: 50%;
+}
+
+.btn2 {
+  margin-left: 15%;
+}
+
+button, button::after {
+  width: 100%;
+  height: 4vh;
+  font-size: 16px;
+  background: linear-gradient(45deg, transparent 5%, #000000 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00aaff;
+  outline: transparent;
+}
+
+.other {
+  margin-top: 2vh;
+
+}
+
+a {
+  margin: 0 1vw;
+  text-decoration: none;
+  color: #000;
+}
+
+/* 状态一: 未被访问过的链接 */
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 状态二: 已经访问过的链接 */
+a:visited {
+  text-decoration: none;
+  color: #663de1;
+}
+
+/* 状态三: 鼠标划过(停留)的链接(默认红色) */
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 状态四: 被点击的链接 */
+a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  color: black;
+  flex-direction: column;
+  margin-left: 2vw;
+  display: flex;
+  width: 40vw;
+  height: 40vh;
+  position: absolute;
+}
+
+.title {
+  margin: 3vh 0;
+  font-size: 5rem;
+  font-family: "Gill Sans", sans-serif;
+
+}
+
+.line {
+  margin-left: 3vw;
+  width: 50vw;
+  border-right: 2px solid #eee;
+  text-align: center;
+  font-size: 3rem;
+  white-space: nowrap;
+  height: 8vh;
+  overflow: hidden;
+}
+
+.animation {
+  animation: grow 2s steps(35) 1s normal both,
+  blink 500ms steps(40) infinite normal;
+}
+
+.foot {
+  color: black;
+  position: absolute;
+  height: 8vh;
+  top: 90vh;
+  display: flex;
+  width: 100vw;
+  text-align: center;
+  margin-left: 1.5vw;
+  flex-flow: column;
+}
+
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50vw;
+  }
+
+}
+
+@keyframes blink {
+  from {
+    border-right-color: #eee;
+  }
+  to {
+    border-right-color: transparent;
+  }
+
+}
+
+
+.animated-text {
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+}
+
+.animated-text span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.animated-text::before {
+  content: '/';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 3rem;
+  animation: symbolChange 2s steps(5, end);
+}
+
+@keyframes symbolChange {
+  0%, 25% {
+    content: '@';
+  }
+  25%, 30% {
+    content: '%';
+  }
+  30%, 80% {
+    content: '?';
+  }
+  80%, 100% {
+    content: '!';
+  }
+  100% {
+    content: '^';
+  }
+}
+
+
+
+.img_verify {
+  position: absolute;
+  left: 55%;
+  top: 3%;
+  width: 35%;
+  height: 100%;
+}
+
+.img_verify:hover {
+  cursor: pointer;
+}
+
+#input3 {
+  width: 50%;
+}
+
+#input4 {
+  width: 50%;
+}
+
+
+.btn3 {
+  margin-left: 10%;
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+}

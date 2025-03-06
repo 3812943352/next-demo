@@ -5,13 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd4f992-7f6c-470d-b430-fcb68053a7a0" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/addons/OrbitControls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/draco/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/draco/draco_decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/draco/draco_decoder.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/draco/draco_encoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/draco/draco_wasm_wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/expand/Capsule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/expand/Octree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/expand/RoomEnvironment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/expand/UseTaiJIPictureMaterial/fm.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/expand/UseTaiJIPictureMaterial/material.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/expand/UseTaiJIPictureMaterial/vt.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/expand/WorkerOctree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/helper/gui.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/helper/stats.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/base/ParticleMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/base/ShaderMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/base/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/base/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/move/ParticleMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/move/ShaderMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/move/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/move/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/region/ParticleMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/region/ShaderMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/region/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/particle/region/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/physics/AmmoPhysics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/physics/ammo.wasm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/physics/ammo.wasm.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/clouds/CloudsShader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/clouds/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/clouds/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/fire/FireShader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/fire/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/fire/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/nightCity/NightCityShader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/nightCity/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/nightCity/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/noise/NoiseMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/noise/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/noise/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/water/WaterMaterial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/water/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/shader/water/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/font.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/glsl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/img.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/types/worker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/AnimationPlayer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/BaseEnvironment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/FallHelper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/GIFLoader/GIFTexture.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/GIFLoader/gif-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/GIFLoader/gif-texture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/GIFLoader/omggif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/GUIControl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/Joystick.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/JumpControls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/KeyBoardControls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/KeyBoardListener.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/LinearAnimation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/ModelLoad.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/ModelLoadWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/NearbyObjects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/OctreeControls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/SkeletonAnimation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/worker/LoadModelWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/worker/ModelTranslate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeHelper/worker/OctreeBuild.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorators/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/redux-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/demo1/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/demo1/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/shader/fm.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/shader/vt.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,28 +118,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "3812943352"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;3812943352&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:3812943352/next-demo.git",
-    "accountId": "2a6c36ad-6992-479d-b4c4-3bfd964a2732"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:3812943352/next-demo.git&quot;,
+    &quot;accountId&quot;: &quot;2a6c36ad-6992-479d-b4c4-3bfd964a2732&quot;
   }
-}]]></component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2qhBfPlZajeeX3jKItO2BC3y7z6" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,21 +156,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/develop/project/next-demo",
+    "last_opened_file_path": "D:/develop/project/records/cli",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.stylelint": "D:\\develop\\project\\next-demo\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "npm.lint:style.executor": "Run",
+    "npm.lint:style:fix.executor": "Run",
+    "npm.prepare.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "D:\\develop\\project\\next-demo\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
     "ts.external.directory.path": "D:\\develop\\project\\next-demo\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -75,13 +185,62 @@
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\project\next-demo\public\assets" />
+      <recent name="D:\develop\project\next-demo\src" />
       <recent name="D:\develop\project\next-demo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\project\next-demo\src\lib\features\user" />
+      <recent name="D:\develop\project\next-demo\src\lib" />
+      <recent name="D:\develop\project\next-demo\src\commponents" />
+      <recent name="D:\develop\project\next-demo\src" />
+      <recent name="D:\develop\project\next-demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.lint:style:fix">
+    <configuration name="lint:style" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:style" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint:style:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:style:fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prepare" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint:style:fix" />
+        <item itemvalue="npm.lint:style" />
+        <item itemvalue="npm.prepare" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -99,6 +258,13 @@
       <option name="presentableId" value="Default" />
       <updated>1735105031259</updated>
       <workItem from="1735105032955" duration="12785000" />
+      <workItem from="1735173504082" duration="5865000" />
+      <workItem from="1735179410798" duration="4938000" />
+      <workItem from="1735260083247" duration="8564000" />
+      <workItem from="1735778447386" duration="18530000" />
+      <workItem from="1735864702237" duration="4446000" />
+      <workItem from="1735869185256" duration="119000" />
+      <workItem from="1735869324260" duration="7863000" />
     </task>
     <servers />
   </component>
